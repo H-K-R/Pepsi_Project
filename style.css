@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+    margin-left:40px;
+}
+body{
+    height:100vh;
+}
+.main{
+    position: relative;
+    width: auto;
+    height: 100vh;
+    
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+    background:#808080;
+    transform: 0.5s;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    
+}
+.header-logo
+{    
+    position: relative;
+    margin-left: 20px;
+}
+ul{
+    display: flex;
+}
+ul li{
+    display: block;
+    margin-left: 15px;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    margin-right: 20px;
+    word-spacing:3px;
+    margin-top: 40px;
+}
+.content{
+    display: flex;
+    margin: 0px 100px;
+    justify-content: space-between;
+    
+}
+.con-left{
+    width: 60%;
+    padding: 100px 0;
+}
+.con-right{
+    height:64vh;
+    width:30%;
+
+}
+#papsi-img{
+    width: 220px;
+}
+.con-left h1{
+    color: #fff;
+    font-size:40px;
+}
+.con-left p{
+    color: #fff;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.footer{
+    text-align: center;
+    
+}
+.footer img{
+    width: 50px;
+    height: 80px;
+    margin-left:40px;
+    
+
+}
+.footer img:hover{
+    transition: .8s;
+    transform:translateY(-10px);
+
+}
+
+.con-left .first-p
+{  
+   word-spacing: 4px;
+   text-transform: uppercase;
+   font-size: 52px;
+   font-weight: bold;
+   color:white;
+}
+.first-p span 
+{
+    color:blue;
+}
